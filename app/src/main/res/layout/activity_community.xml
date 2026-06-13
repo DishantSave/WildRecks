@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".Community">
+
+    <EditText
+        android:id="@+id/edit_text_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter description"
+        android:inputType="textMultiLine"
+        android:layout_marginBottom="8dp"
+        android:layout_alignParentTop="true"/>
+
+    <Button
+        android:id="@+id/button_load_media"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Load Media"
+        android:layout_below="@id/edit_text_description"
+        android:layout_marginLeft="120dp"
+        android:layout_alignParentStart="true"
+        android:onClick="loadMedia"/>
+
+    <ImageView
+        android:id="@+id/image_view_media"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_load_media"
+        android:layout_marginTop="8dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:visibility="gone"/>
+
+    <EditText
+        android:id="@+id/edit_text_image_url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Image URL"
+        android:inputType="text"
+        android:layout_below="@id/image_view_media"
+        android:layout_marginBottom="8dp"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/button_post"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Post"
+        android:layout_below="@id/edit_text_image_url"
+        android:layout_marginRight="130dp"
+        android:layout_alignParentEnd="true"/>
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/button_post"
+        android:layout_marginTop="8dp">
+
+        <LinearLayout
+            android:id="@+id/posts_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"/>
+
+    </ScrollView>
+
+</RelativeLayout>

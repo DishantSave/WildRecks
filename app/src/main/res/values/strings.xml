@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">WildRecks</string>
+    <string name="google_maps_key">AIzaSyB-zqpkvN4nsPKGelpxtQbDJM8wS8BcEHA</string>
+    <string name="play_sound">Play Sound</string>
+    <string name="todo">TODO</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="find">Find</string>
+</resources>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "597568594260",
+    "project_id": "targetrecks",
+    "storage_bucket": "targetrecks.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:597568594260:android:730afa69c5f5485263a8c1",
+        "android_client_info": {
+          "package_name": "com.snm.targetrecks"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDo4ezZhwKwgnXD6vFoVL-_f_prRdPzY6w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
