@@ -8,14 +8,33 @@ Beyond core machine learning detection, Wild Recks integrates an immersive Augme
 
 ## 📸 Application Preview
 
-The following screenshots demonstrate the core user interface and features of the application. These assets are located within the project's `/assets` directory.
+The following screenshots demonstrate the core user interface and features of the application. These assets are located within the project's root `/assets` directory.
 
-| Component | Visual Preview                                                                     | Description |
-| :--- |:-----------------------------------------------------------------------------------| :--- |
-| **User Interface Overview** | <img src="./assets/WildRecks_img_1.png" width="200" alt="Dashboard Visual"/>       | **Application Home Look:** The main entry point showcasing the clean, modern dashboard, quick access navigation grid, and recent community highlights. |
-| **Real-Time Detection** | <img src="./assets/WildRecks_img_2.png" width="200" alt="Object Detector"/>        | **Live YOLOv8 Detector:** The active camera view utilizing the edge-optimized TFLite model to track and identify a *Nilgiri Tahr* with high bounding-box confidence. |
-| **Immersive Experience** | <img src="./assets/WildRecks_img_3.png" width="200" alt="Augmented Reality view"/> | **Augmented Reality Look:** Interactive 3D rendering of rare Indian species projected into the real-world environment via ARCore capabilities. |
-| **Social Ecosystem** | <img src="./assets/WildRecks_img_4.png" width="200" alt="Community Page"/>         | **Community Share Look:** The social feed where users publish validated sightings, exchange geolocation insights, and interact with fellow wildlife observers. |
+### 1. User Interface & Dashboard Overview
+This is the primary navigation hub of Wild Recks. It features a modern, clean dashboard design that gives users quick access to the standard detector, AR features, sound libraries, and the community feed.
+
+<img src="./assets/WildRecks_img_1.png" width="450" alt="Main Application Home Look" />
+
+---
+
+### 2. Live YOLOv8 Object Detection
+The heart of the application. This screenshot shows the active detector running in real-time. The optimized TFLite model has identified a complex subject (a Nilgiri Tahr) in a challenging natural environment, displaying high bounding-box confidence.
+
+<img src="./assets/WildRecks_img_2.png" width="450" alt="Active AI Detector Identifying Species" />
+
+---
+
+### 3. Immersive Augmented Reality
+For devices that support Google ARCore, this view demonstrates the interactivity. A high-fidelity 3D model of a rare Indian animal is projected onto a real-world flat surface, allowing for safe, close-up educational observation.
+
+<img src="./assets/WildRecks_img_3.png" width="450" alt="AR Projection of rare species" />
+
+---
+
+### 4. Community Share & Validation
+This feed is where the social aspects of conservation take place. Users log their verified rare sightings here, share high-quality media, and validate observations, fostering collaboration among wildlife enthusiasts.
+
+<img src="./assets/WildRecks_img_4.png" width="450" alt="Social Feed for shared wildlife sightings" />
 
 ---
 
