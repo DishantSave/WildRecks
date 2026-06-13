@@ -10,12 +10,12 @@ Beyond core machine learning detection, Wild Recks integrates an immersive Augme
 
 The following screenshots demonstrate the core user interface and features of the application. These assets are located within the project's `/assets` directory.
 
-| Component | Visual Preview                                          | Description |
-| :--- |:--------------------------------------------------------| :--- |
-| **User Interface Overview** | `![Dashboard Visual](assets/WildRecks_img_1.png)`       | **Application Home Look:** The main entry point showcasing the clean, modern dashboard, quick access navigation grid, and recent community highlights. |
-| **Real-Time Detection** | `![Object Detector](assets/WildRecks_img_2.png)`        | **Live YOLOv8 Detector:** The active camera view utilizing the edge-optimized TFLite model to track and identify a *Nilgiri Tahr* with high bounding-box confidence. |
-| **Immersive Experience** | `![Augmented Reality view](assets/WildRecks_img_3.png)` | **Augmented Reality Look:** Interactive 3D rendering of rare Indian species projected into the real-world environment via ARCore capabilities. |
-| **Social Ecosystem** | `![Community Page](assets/WildRecks_img_4.png)`         | **Community Share Look:** The social feed where users publish validated sightings, exchange geolocation insights, and interact with fellow wildlife observers. |
+| Component | Visual Preview                                                                     | Description |
+| :--- |:-----------------------------------------------------------------------------------| :--- |
+| **User Interface Overview** | <img src="./assets/WildRecks_img_1.png" width="200" alt="Dashboard Visual"/>       | **Application Home Look:** The main entry point showcasing the clean, modern dashboard, quick access navigation grid, and recent community highlights. |
+| **Real-Time Detection** | <img src="./assets/WildRecks_img_2.png" width="200" alt="Object Detector"/>        | **Live YOLOv8 Detector:** The active camera view utilizing the edge-optimized TFLite model to track and identify a *Nilgiri Tahr* with high bounding-box confidence. |
+| **Immersive Experience** | <img src="./assets/WildRecks_img_3.png" width="200" alt="Augmented Reality view"/> | **Augmented Reality Look:** Interactive 3D rendering of rare Indian species projected into the real-world environment via ARCore capabilities. |
+| **Social Ecosystem** | <img src="./assets/WildRecks_img_4.png" width="200" alt="Community Page"/>         | **Community Share Look:** The social feed where users publish validated sightings, exchange geolocation insights, and interact with fellow wildlife observers. |
 
 ---
 
